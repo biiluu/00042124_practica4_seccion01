@@ -1,0 +1,78 @@
+title {
+    font-size: 30px;
+}
+
+body {
+    background-color: #385170;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    color: #ececec;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    width: 100%;
+    color: #ececec;
+    line-height: 1.5;
+}
+
+button {
+    width: 100px;
+    height: 45px;
+    background-color: #9ba;
+    color: #393e46;
+    border: 2px solid;
+    border-radius: 25%;
+}
+
+input {
+    width: 100px;
+    height: 20px;
+    background-color: #9ba;
+    color: #000000;
+    border: 2px solid;
+    border-radius: 25%;
+    padding: 10px;
+}
+
+.contenedorForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contenedorTodo {
+    background-color: #9fd3c7;
+    ;
+    border-radius: 10%;
+    font-size: 45;
+}
+
+#respuestaUsuario {
+    width: 250px;
+    background-color: #192522;
+    ;
+    border: 2px solid;
+    border-radius: 15%;
+}

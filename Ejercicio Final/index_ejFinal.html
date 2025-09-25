@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ejercicio Final Guia 4</title>
+    <link rel="stylesheet" href="styles_ejFinal.css">
+</head>
+
+<body>
+    <div class="contenedorTodo">
+        <header>
+            <h1>Dias de labores</h1>
+            <p>Debe de ingresar un dia de la semana para poder darle un recordatorio de lo que debe de hacer:</p>
+        </header>
+
+        <section class="contenedorForm">
+            <div>
+                <input type="text" id="inputDia" name="semanaDia" placeholder="Escribe el dia de la semana" maxlength=10
+                    required>
+                <button onclick="semana(inputDia)">Enviar Dia</button>
+            </div>
+            <p id="respuestaUsuario">Respuesta a usuario de lo que debe de realizar en el dia.</p>
+        </section>
+    </div>
+
+
+    <script src="script_ejFinal.js"></script>
+</body>
+
+</html>
